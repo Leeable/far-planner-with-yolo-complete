@@ -12,7 +12,7 @@
 > make<br>
 > sudo make install<br>
 
-# The yolo file path should be placed at src/yolo/config/default.yaml<br>
+### The yolo file path should be placed at src/yolo/config/default.yaml<br>
 
 and then, plesae use catkin_make<br>
 > cd /far-planner-with-yolo<br>
@@ -20,7 +20,7 @@ and then, plesae use catkin_make<br>
 > sudo chmod +x run.sh<br>
 > ./run.sh<br>
 
-# yolo cfg, weight and coconame should be download at /src/yolo/data<br>
+### yolo cfg, weight and coconame should be download at /src/yolo/data<br>
 
 cfg weight coconames can be download from https://github.com/AlexeyAB/darknet<br>
 
