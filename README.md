@@ -3,7 +3,8 @@
 ![image](https://github.com/Leeable/far-planner-with-yolo/blob/Noetic/2022-06-19%20183632.gif)<br>
 
 ## Note that the opencv version should higher than 3.3 <br>
-download source from https://opencv.org/ <br>
+### you need to build newer opencv from source<br>
+### download source from https://opencv.org/ <br>
 > cd opencv-4.5.4<br>
 > mkdir build & cd build<br>
 > cd opencv-4.5.4<br>
@@ -11,11 +12,15 @@ download source from https://opencv.org/ <br>
 > make<br>
 > sudo make install<br>
 
+# The yolo file should be placed at src/yolo/config/default.yaml<br>
 
- 
-make -j12
-sudo make install
-you need to build newer opencv from source<br>
+and then, plesae use catkin_make<br>
+> cd /far-planner-with-yolo<br>
+> catkin_make<br>
+> sudo chmod +x run.sh<br>
+> ./run.sh<br>
+
+
 
 
 The original far_planner is here, please check the url below <br>
