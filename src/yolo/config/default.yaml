@@ -1,0 +1,4 @@
+# YOLO Params
+Yolo/cfg_path                           : /home/lqz/ros_ws/src/detection_pkg/data/yolov4-tiny.cfg
+Yolo/weight_path                        : /home/lqz/ros_ws/src/detection_pkg/data/yolov4-tiny.weights
+Yolo/coconame_path                      : /home/lqz/ros_ws/src/detection_pkg/data/coco.names
