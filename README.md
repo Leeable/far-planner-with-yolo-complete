@@ -20,7 +20,7 @@ and then, plesae use catkin_make<br>
 > sudo chmod +x run.sh<br>
 > ./run.sh<br>
 
-### yolo cfg, weight and coconame should be download at /src/yolo/data<br>
+### yolo cfg, weight and coconame should be downloaded at /src/yolo/data<br>
 
 cfg weight coconames can be download from https://github.com/AlexeyAB/darknet<br>
 
