@@ -2,9 +2,10 @@
 # FAR Planner version with yolo to detect object<br>
 ![image](https://github.com/Leeable/far-planner-with-yolo/blob/Noetic/2022-06-19%20183632.gif)
 ## Tested in ubuntu 20.04, ubuntu 18.04, Manjaro  (you need to use AUR to build ROS1 noetic(recommend) or melodic)
-## Note that the opencv version should higher than 3.3 opencv的版本要求要大于3.3<br>
+## Note that the opencv version should higher than 3.3 <br>
+### opencv的版本要求要大于3.3 <br>
 ### you need to build newer opencv from source<br> 
-### 我们需要去opencv的官网进行源码编译，连接如下<br>
+### 我们需要去opencv的官网进行源码编译，链接如下<br>
 ### download source from https://opencv.org/ <br>
 > cd opencv-4.5.4<br>
 > mkdir build & cd build<br>
