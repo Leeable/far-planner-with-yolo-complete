@@ -23,11 +23,14 @@ and then, plesae use catkin_make 执行catkin_make<br>
 > sudo chmod +x run.sh<br>
 > ./run.sh<br>
 
-### yolo cfg, weight and coconame should be downloaded and put at /src/yolo/data <br>
-### yolo相关的cfg、weight和coconame要放在/src/yolo/data这个目录下<br>
+### yolo cfg, weight and coconame should be downloaded and put at /src/yolo/data, and the default is yolov4-tiny<br>
+### yolo相关的cfg、weight和coconame要放在/src/yolo/data这个目录下，目前默认的为yolov4-tiny<br>
 
 cfg weight coconames can be download from https://github.com/AlexeyAB/darknet <br>
 这个是对应的cfg、weight和coconames的下载连接，请选择合适的进行使用<br>
+
+### Setting yolo config file in the yolo/src/detection.cpp, change the absolute path for the cfg, weight and coconame/<br>
+### 在yolo/src/detection.cpp里设置cfg、weight、coconame的绝对路径<br>
 
 
 The original far_planner is here, please check the url below <br>
