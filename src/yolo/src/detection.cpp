@@ -77,14 +77,15 @@ void Detection::Initalize(int width, int height)
 
 void Detection::ReadModel()
 {
-    // string classesFile = "/home/lqz/ros_ws/src/detection_pkg/data/coco.names";
-    // string modelConfig = "/home/lqz/ros_ws/src/detection_pkg/data/yolov4-tiny.cfg";
-    // string modelWeights = "/home/lqz/ros_ws/src/detection_pkg/data/yolov4-tiny.weights";
+    // set the absolute path for the coco.names, yolo-cfg and yolo-weights
+    string classesFile = "/home/lqz/ros_ws/src/detection_pkg/data/coco.names";
+    string modelConfig = "/home/lqz/ros_ws/src/detection_pkg/data/yolov4-tiny.cfg";
+    string modelWeights = "/home/lqz/ros_ws/src/detection_pkg/data/yolov4-tiny.weights";
 
-    std::string classesFile = yl_params_.coconame;
-    ROS_INFO("this is:%s", classesFile.c_str());
-    std::string modelConfig = yl_params_.cfg;
-    std::string modelWeights = yl_params_.weights;
+//     std::string classesFile = yl_params_.coconame;
+//     ROS_INFO("this is:%s", classesFile.c_str());
+//     std::string modelConfig = yl_params_.cfg;
+//     std::string modelWeights = yl_params_.weights;
     ifstream ifs(classesFile.c_str());
     string line;
     while (getline(ifs, line))
