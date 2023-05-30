@@ -1,4 +1,5 @@
 # YOLO Params
-Yolo/cfg_path                           : [Absolute Path]/far-planner-with-yolo/src/yolo/data/yolov4-tiny.cfg
-Yolo/weight_path                        : [Absolute Path]/far-planner-with-yolo/src/yolo/data/yolov4-tiny.weights
-Yolo/coconame_path                      : [Absolute Path]/far-planner-with-yolo/src/yolo/data/coco.names
+Yolo/cfg_path                           : /far-planner-with-yolo/src/yolo/data/yolov4-tiny.cfg
+Yolo/weight_path                        : /far-planner-with-yolo/src/yolo/data/yolov4-tiny.weights
+Yolo/coconame_path                      : /far-planner-with-yolo/src/yolo/data/coco.names
+# this file is failed, please change the path in the yolo/src/detection.cpp -> Detection::ReadModel()
