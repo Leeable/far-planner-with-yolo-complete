@@ -17,8 +17,7 @@
 ## yolo cfg, weight and coconame should be downloaded and put at /src/yolo/data, and the default is yolov4-tiny <br>
 ## yolo相关的cfg、weight和coconame要放在/src/yolo/data这个目录下，目前默认的为yolov4-tiny <br>
 
-## The yolo file absolute path should be placed at src/yolo/config/default.yaml <br>
-## 请把yolo相关的文件的路径写在src/yolo/config/default.yaml中<br>
+
 
 ## Setting yolo config file in the yolo/src/detection.cpp, change the absolute path for the cfg, weight and coconame <br>
 ## 在yolo/src/detection.cpp里设置cfg、weight、coconame的绝对路径 <br>
